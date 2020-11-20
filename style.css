@@ -1,0 +1,89 @@
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 98vw;
+    height: 90vh;
+    padding: 0;
+    padding: 0;
+    background-color: #1d183e;
+}
+
+.hide{
+    visibility: hidden;
+}
+
+form{
+    padding: 20px 40px;
+    padding-top: 0;
+    text-align: center;
+    background-color: white;
+    border-radius: 50px;
+}
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p#desc{
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+span{
+    font-weight: bolder;
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.bmiVar{
+    width: 150px;
+    height: 30px;
+    font-size: 18px;
+    text-align: center;
+    border: none;
+    outline: none;
+    background-color: #d0cfd3;
+    border-radius: 50px;
+}
+
+.btn{
+    width:150px;
+    height:40px;
+    font-size: 20px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+}
+
+.btn:hover{
+    border:5px solid black;
+    transition: 0.1s ease-in-out;
+}
+
+.btn.calc{
+    background-color: #7ff5a2;
+}
+
+.btn.reset{
+    background-color: #f95d5d;
+}
+
+#label{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-size: 18px;
+}
+
+.bmiVar.results{
+    width:170px;
+    height:50px;
+    font-size: 24px;
+}
+
+#results{
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
